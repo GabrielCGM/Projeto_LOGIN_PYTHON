@@ -29,7 +29,7 @@ def enviar_email(email_user):
     msg['Subject'] = "CONFIRMAR CADASTRO"
     msg['From'] = 'testeparaprojetos321@gmail.com'
     msg['To'] = email_user
-    password = 'rnpbvfudamjpbjft' 
+    password = '' 
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email )
 
